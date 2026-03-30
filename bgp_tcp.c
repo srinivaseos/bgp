@@ -1,10 +1,11 @@
-// bgp_client_packets.c
+// bgp_client_packets.c tcp
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-#include <arpa/inet.h>
+#include <arpa/inet.h>  
 
+int source_s; 
 #define BGP_PORT 179
 #define BGP_MARKER_SIZE 16
 
